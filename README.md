@@ -59,7 +59,7 @@ Calculator/
    ```sh
    npm install
 
-3. Create a `.env` file in the `calculator-backend` directory and add the following content:
+3. Create a `.env` file in the `calculator-backend` directory and add the following content: (Not Needed already if Port:3000 is free)
 
    ```sh
    PORT=3000
@@ -67,7 +67,7 @@ Calculator/
 4. Start the backend server.
    
    ```sh
-   npm start
+   node index.js
 
 ## Setup Frontend
 1. Open a new terminal window or tab.
@@ -83,7 +83,8 @@ Calculator/
    ```sh
    npm install
 
-4. Create a `.env` file in the `calculator-frontend` directory and add the following content:
+4. Create a `.env` file in the `calculator-frontend` directory and add the following content: (Not Needed already if Port:3001 is free)
+
    
    ```sh
    REACT_APP_API_URL=http://localhost:3001
